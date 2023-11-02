@@ -1,12 +1,9 @@
-import { Stack } from "expo-router";
+import { Stack, Tabs } from "expo-router";
 
-export default function Layout(){
-    return(
-        <Stack screenOptions={{
-            headerStyle: {
-                backgroundColor: "black"
-            },
-            headerTintColor: "white",
-        }}/>
-    )
+export default function Layout() {
+  return (
+    <Tabs>
+
+    </Tabs>
+  );
 }
